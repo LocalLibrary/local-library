@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    
+    <title>Local Library</title>
+    
+    <link rel="stylesheet"  href="css/jquery.mobile-1.3.1.min.css">
+
+    <!-- Extra Codiqa features -->
+    <link rel="stylesheet" href="css/main.css">
+    
+    <script type="text/javascript" src="cordova.js"></script>
+    
+    <script src="js/jquery-1.10.1.min.js"></script>
+    <script src="js/jquery.mobile-1.3.1.min.js"></script>
+
+    <!-- Local-Library JavaScript-->
+    <script src="js/main.js"></script>
+
+</head>
+<body>
+<!-- Home -->
+<div data-role="page" id="page1">
+    <div  data-role="header">
+        <h3>
+            Local Library
+        </h3>
+    </div>
+    <div data-role="content">
+        <div data-role="fieldcontain">
+            <label for="searchinput1">
+                Find a Book
+            </label>
+            <input name="search_box" id="searchinput1" placeholder="" value="" type="search">
+        </div>
+        <input type="submit" data-icon="search" data-iconpos="left" value="Search">
+    </div>
+</div>
+</body>
+</html>
